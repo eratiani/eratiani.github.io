@@ -1,1 +1,1 @@
-https://eratiani.github.io/index.html
+https://eratiani.github.io/shelter/index.html
