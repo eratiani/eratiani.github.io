@@ -1,13 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/stylepets.css">
 </head>
-<h1 style="font-size: 70px;" >our pets</h1>
+
+
 <body>
-    
+    <div class="main_wrapper">
+        <div class="linearGradient">
+            <header class="header">
+                <a href="#" class="logo">
+                    <div class="header_logoWrapper">
+                        <h1 class="header_h1">Cozy House
+                        </h1>
+                        <p class="header_paragraph">Shelter for pets in Boston</p>
+                    </div>
+                </a>
+                <nav>
+                    <ul class="headerUl">
+                        <li class="headerLi"><a href="#aboutTHeShelter" class="headerA" active>About the shelter</a>
+                        </li>
+                        <li class="headerLi"><a href="./pets.html" class="headerA">Our pets</a></li>
+                        <li class="headerLi"><a href="#helpTheShelter" class="headerA">Help the shelter</a></li>
+                        <li class="headerLi"><a href="#contacts" class="headerA">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="sec_1">
+                <h2 class="sec_1header">
+                    Our friends who
+
+                    <span class="sec_1headerSpan">are looking for a house</span>
+                </h2>
+                <div class="petsWrapper">
+                    <div class="sec_1petsWrapperRow">
+                        <div class="sec_3cards card1">
+                            <img class="katrine" src="./images/pets-katrine.png" alt="katrine">
+                            <h3 class="sec_3cardsHeader">katrine</h3>
+                            <input class="sec_3cardsbtn1" type="button" value="Learn more">
+                        </div>
+                        <div class="sec_3cards card2">
+                            <img class="jennifer" src="./images/pets-jennifer.png" alt="jenniger">
+                            <h3 class="sec_3cardsHeader">jennifer</h3>
+                            <input class="sec_3cardsbtn2" type="button" value="Learn more">
+                        </div>
+                        <div class="sec_3cards card3">
+                            <img class="woody" src="./images/pets-woody.png" alt="woody">
+                            <h3 class="sec_3cardsHeader">woody</h3>
+                            <input class="sec_3cardsbtn3" type="button" value="Learn more">
+                        </div>
+                        <div class="sec_3cards card3">
+                            <img class="woody" src="./images/pets-scarlet.png" alt="woody">
+                            <h3 class="sec_3cardsHeader">sophia</h3>
+                            <input class="sec_3cardsbtn3" type="button" value="Learn more">
+                        </div>
+                    </div>
+                    <div class="sec_1petsWrapperRow">
+                        <div class="sec_3cards card1">
+                            <img class="katrine" src="./images/pets-timmy.png" alt="katrine">
+                            <h3 class="sec_3cardsHeader">timmy</h3>
+                            <input class="sec_3cardsbtn1" type="button" value="Learn more">
+                        </div>
+                        <div class="sec_3cards card2">
+                            <img class="jennifer" src="./images/charlie.svg" alt="jenniger">
+                            <h3 class="sec_3cardsHeader">charly</h3>
+                            <input class="sec_3cardsbtn2" type="button" value="Learn more">
+                        </div>
+                        <div class="sec_3cards card3">
+                            <img class="woody" src="./images/scarlett.svg" alt="woody">
+                            <h3 class="sec_3cardsHeader">scarlet</h3>
+                            <input class="sec_3cardsbtn3" type="button" value="Learn more">
+                        </div>
+                        <div class="sec_3cards card3">
+                            <img class="woody" src="./images/freddie.svg" alt="woody">
+                            <h3 class="sec_3cardsHeader">freddie</h3>
+                            <input class="sec_3cardsbtn3" type="button" value="Learn more">
+                        </div>
+                    </div>
+                    <div class="sec_1navigation">
+                        <ul class="sec_1ul">
+                            <li class="sec_1li"><a href="#" class="sec_1ula">&#60;&#60;</a></li>
+                            <li class="sec_1li"><a href="#" class="sec_1ula">&#60;</a></li>
+                            <li class="sec_1li"><a href="#" class="sec_1ula">1</a></li>
+                            <li class="sec_1li"><a href="#" class="sec_1ula">&#62;</a></li>
+                            <li class="sec_1li"><a href="#" class="sec_1ula">&#62;&#62;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footerCol-1">
+                    <h2 class="footerCol-1header">For questions
+                        <span class="footerCol-1headerSpan">
+                            and suggestions
+                        </span>
+                    </h2>
+                    <ul class="footerUl">
+                        <li class="footerLi"><img src="./images/icon-email.svg" alt="icon" class="footerIcon"> <a
+                                href="mailto:email@shelter.com" class="footerLink">email@shelter.com</a></li>
+                        <li class="footerLi"><img src="./images/icon-phone.svg" alt="icon" class="footerIcon"><a
+                                href="tel:+136745677554" class="footerLink">+13 674 567 75 54</a></li>
+                    </ul>
+                </div>
+                <div class="footerCol-2">
+                    <h2 class="footerCol-2header">We are waiting
+                        <span class="footerCol-2headerSpan">
+                            for your visit
+                        </span>
+                    </h2>
+                    <ul class="footerUl" id="contacts">
+                        <li class="footerLi"><img src="./images/icon-marker.svg" alt="icon" class="footerIcon"> <a
+                                href="https://www.google.com/maps/d/viewer?mid=1Gk2rRiQZt3be2xnwGE5p825Wvb4&hl=en&ll=39.07386067401693%2C-120.38625749999999&z=13"
+                                class="footerLink">1 Central Street, Boston
+                                <span class="footerASpan">(entrance from the store)</span>
+                            </a></li>
+                        <li class="footerLi"><img src="./images/icon-marker.svg" alt="icon" class="footerIcon"><a
+                                href="https://www.google.com/maps/place/Monkey+Island/@20.7280827,107.0748563,16z/data=!3m1!4b1!4m5!3m4!1s0x314a4595a4b7b781:0x2e9f664bb92b0d4e!8m2!3d20.7279523!4d107.0794128"
+                                class="footerLink">18 South Park, London </a></li>
+                    </ul>
+                </div>
+                <div class="footerCol-3">
+                    <div class="footerCol_3imgWrapper">
+                        <img class="footerCol_3img" src="./images/footer-puppy.png" alt="pup">
+                    </div>
+
+                </div>
+                
+            </footer>
+
+
+        </div>
+        <script src="./js/indexpets.js"></script>
 </body>
+
 </html>
