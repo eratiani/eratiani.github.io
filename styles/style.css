@@ -230,6 +230,10 @@
     transition: all 1.17s;
 }
 
+.sec_3cards input:hover {
+    background-color: #F1CDB3;  
+}
+
 
 .owl-nav {
     position: absolute;
