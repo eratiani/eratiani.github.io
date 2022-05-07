@@ -3,24 +3,26 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
 }
 
 .main_wrapper {
     width: 100%;
     max-width: 1280px;
     margin: auto;
-
+    letter-spacing: 0.1em;
 }
 
 
 
 .header {
-    padding: 4.6875vw 3.125vw 0px 3.125vw;
+    padding: 2.344vw 3.125vw 0px 3.125vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     background-color: #FFFFFF;
+    letter-spacing: 0.1em;
 }
 
 .logo {
@@ -104,9 +106,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin-bottom: 30px;
 }
-
+.sec_3cards:hover {
+    background: fff;
+    cursor: pointer;
+}
+.sec_3cards:hover .sec_3cardsbtn {
+    background-color: #F1CDB3; 
+    cursor: pointer; 
+}
 .sec_3cardsHeader {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -208,6 +217,25 @@
     text-decoration: none;
     color: #F1CDB3;
     font-size: 20px;
-    line-height: 23px;
+    
     margin-left: 20px;
+}
+.footerCol-1{
+    width: 278px;
+}
+.footerCol-2 {
+    width: 302px;
+}
+.footerCol-2 ul {
+    height: 152px;
+}
+.not-interactive {
+    pointer-events: none;
+}
+
+.disabled{
+    
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+    pointer-events: none;
 }
