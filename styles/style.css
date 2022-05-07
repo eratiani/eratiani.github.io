@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
 }
 
 .main_wrapper {
@@ -229,9 +230,13 @@
     border-radius: 100px;
     transition: all 1.17s;
 }
-
-.sec_3cards input:hover {
-    background-color: #F1CDB3;  
+.sec_3cards:hover {
+    background: fff;
+    cursor: pointer;
+}
+.sec_3cards:hover .sec_3cardsbtn {
+    background-color: #F1CDB3; 
+    cursor: pointer; 
 }
 
 
@@ -489,4 +494,17 @@
     font-size: 20px;
     line-height: 23px;
     margin-left: 20px;
+}
+.bgChanger {
+    background: fff;
+    cursor: pointer;
+}
+.footerCol-1{
+    width: 278px;
+}
+.footerCol-2 {
+    width: 302px;
+}
+.footerCol-2 ul {
+    height: 152px;
 }
