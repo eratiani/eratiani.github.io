@@ -94,9 +94,11 @@
         width: 100%;
     }
     .sec_5txtWrapper{
-        width: 49.5%;
+        width: 380px;
+        max-width: 380px;
         margin: auto;
     }
+    
     .sec_5imgWrapper {
         width: 65.76%;
         margin: auto;
