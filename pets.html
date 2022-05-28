@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/stylepets.css">
+    <link rel="stylesheet" href="styles/responsivePets.css">
 </head>
 
 
@@ -21,7 +22,7 @@
                         <p class="header_paragraph">Shelter for pets in Boston</p>
                     </div>
                 </a>
-                <nav>
+                <nav class="navigation">
                     <ul class="headerUl">
                         <li class="headerLi"><a href="./index.html" class="headerA" active>About the shelter</a>
                         </li>
@@ -30,6 +31,27 @@
                         <li class="headerLi"><a href="#contacts" class="headerA">Contacts</a></li>
                     </ul>
                 </nav>
+                <nav class="navBurger closed">
+                    <a href="#" class="logo">
+                        <div class="header_logoWrapper">
+                            <h1 class="header_h1">Cozy House
+                            </h1>
+                            <p class="header_paragraph">Shelter for pets in Boston</p>
+                        </div>
+                    </a>
+                    <ul class="headerUlNav">
+                        <li class="headerLi"><a href="./index.html" class="headerA" active>About the shelter</a>
+                        </li>
+                        <li class="headerLi"><a href="./pets.html" class="headerA">Our pets</a></li>
+                        <li class="headerLi"><a href="./index.html#helpTheShelter" class="headerA">Help the shelter</a></li>
+                        <li class="headerLi"><a href="#contacts" class="headerA">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <div class="burger-brick first"></div>
+                    <div class="burger-brick middle"></div>
+                    <div class="burger-brick last"></div>
+                  </div>
             </header>
             <section class="sec_1">
                 <h2 class="sec_1header">
@@ -59,8 +81,7 @@
                             <h3 class="sec_3cardsHeader">sophia</h3>
                             <input class="sec_3cardsbtn" type="button" value="Learn more">
                         </div>
-                    </div>
-                    <div class="sec_1petsWrapperRow">
+                 
                         <div class="sec_3cards card1">
                             <img class="katrine" src="./images/pets-timmy.png" alt="katrine">
                             <h3 class="sec_3cardsHeader">timmy</h3>
@@ -84,11 +105,11 @@
                     </div>
                     <div class="sec_1navigation">
                         <ul class="sec_1ul">
-                            <li class="sec_1li"><a href="#" class="sec_1ula disabled" disabled>&#60;&#60;</a></li>
-                            <li class="sec_1li"><a href="#" class="sec_1ula disabled">&#60;</a></li>
-                            <li class="sec_1li"><a href="#" class="sec_1ula not-interactive">1</a></li>
-                            <li class="sec_1li"><a href="#" class="sec_1ula">&#62;</a></li>
-                            <li class="sec_1li"><a href="#" class="sec_1ula">&#62;&#62;</a></li>
+                            <li class="sec_1li"><a href="#" class="sec_1ula  btnfirst" disabled>&#60;&#60;</a></li>
+                            <li class="sec_1li"><a href="#" class="sec_1ula  btnPrev">&#60;</a></li>
+                            <li class="sec_1li"><a href="#" class="sec_1ula not-interactive curPage">1</a></li>
+                            <li class="sec_1li"><a href="#" class="sec_1ula  btnNext">&#62;</a></li>
+                            <li class="sec_1li"><a href="#" class="sec_1ula  btnLast">&#62;&#62;</a></li>
                         </ul>
                     </div>
                 </div>
@@ -135,6 +156,7 @@
 
 
         </div>
+        <script src="./js/jquery-3.6.0.min.js"></script>
         <script src="./js/indexpets.js"></script>
 </body>
 

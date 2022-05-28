@@ -24,7 +24,7 @@
                         <p class="header_paragraph">Shelter for pets in Boston</p>
                     </div>
                 </a>
-                <nav>
+                <nav class="navigation">
                     <ul class="headerUl">
                         <li class="headerLi"><a href="#aboutTHeShelter" class="headerA" active>About the shelter</a>
                         </li>
@@ -33,6 +33,27 @@
                         <li class="headerLi"><a href="#contacts" class="headerA">Contacts</a></li>
                     </ul>
                 </nav>
+                <nav class="navBurger closed">
+                    <a href="#" class="logo">
+                        <div class="header_logoWrapper">
+                            <h1 class="header_h1">Cozy House
+                            </h1>
+                            <p class="header_paragraph">Shelter for pets in Boston</p>
+                        </div>
+                    </a>
+                    <ul class="headerUlNav">
+                        <li class="headerLi"><a href="#aboutTHeShelter" class="headerA" active>About the shelter</a>
+                        </li>
+                        <li class="headerLi"><a href="./pets.html" class="headerA">Our pets</a></li>
+                        <li class="headerLi"><a href="#helpTheShelter" class="headerA">Help the shelter</a></li>
+                        <li class="headerLi"><a href="#contacts" class="headerA">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="burger ">
+                    <div class="burger-brick first"></div>
+                    <div class="burger-brick middle"></div>
+                    <div class="burger-brick last"></div>
+                  </div>
             </header>
 
             <section class="sec_1">
@@ -45,7 +66,11 @@
                     <p class="sec_1paragraph">We offer to give a chance to a little and nice puppy with an extremely
                         wide and open heart. He or she will love you more than anybody else in the world, you will see!
                     </p>
-                    <input class="sec_1btn" type="button" value="Make a friend">
+                    <div class="sec_1btnWrapper">
+
+                        <a class="sec_1btn" href="#makeAFrind">Make a friend</a>
+                    </div>
+                    
                 </div>
                 <div class="sec_1imgWrapper">
                     <img src="./images/start-screen-puppy.png" alt="main Puppy">
@@ -72,7 +97,7 @@
             </section>
         </div>
 
-        <section class="sec_3">
+        <section id="makeAFrind" class="sec_3">
             <div class="sec_3headerWrapper">
                 <h2 class="sec_3header">Our friends who
                     <span class="sec_3headerSpan">are looking for a house</span>
@@ -132,8 +157,7 @@
                         <h3 class="sec_4itemsHeader">Shampoos</h3>
                     </div>
 
-                </div>
-                <div class="sec_4itemsRow">
+                
                     <div class="sec_4items">
                         <img class="sec_4itemsImg" src="./images/icon-vitamins.svg" alt="food">
                         <h3 class="sec_4itemsHeader">Vitamins</h3>
