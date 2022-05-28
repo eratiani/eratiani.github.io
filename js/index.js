@@ -1,10 +1,36 @@
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
-        items: 3,
+        responsive:{
+            320:{
+                items: 1
+            },
+            768 : {
+                items: 2,
+            },
+            1000:{
+                
+                items: 3,
+            }
+        },
         loop: true,
         nav: true,
         navText:["<img src='./images/arrowleft.svg'>","<img src='./images/arrowright.svg'>"],
     });
+});
+////////////////////burger
+$('.burger').click(function(){
+    $(this).toggleClass('open');
+    $(".navBurger").toggleClass("closed")
+    
+  });
+$(".navBurger").click(()=>{
+    if ($('.navBurger').classList = "open" ) {
+
+        $(".burger").toggleClass('open');
+        $(".navBurger").toggleClass("closed")
+    }
+    
+   
 });
 // let card1 = document.querySelector(".card1");
 // let card2 = document.querySelector(".card2");
