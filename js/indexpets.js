@@ -108,8 +108,9 @@ var obj = document.querySelectorAll(".sec_3cards")
             
              
 
-                listing_table.append(obj[i]) + "<br>";
-             
+                if(obj[i]!== undefined){
+                    listing_table.append(obj[i]) + "<br>";
+                }
           
            
         }
