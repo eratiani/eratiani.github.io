@@ -153,6 +153,9 @@
       margin-bottom: 105px;
 
   }
+  .sec_1{
+    overflow: hidden;
+  }
   .sec_1btn {
       width: 207px;
   }
