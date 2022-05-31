@@ -58,7 +58,9 @@
         margin-top: 20px;
         margin-bottom: 30px;
     }
-    
+    .sec_1petsWrapperRow {
+        justify-content: center;
+    }
     .footer  {
         flex-wrap: wrap;
         justify-content: center;
@@ -82,6 +84,16 @@
     }
     
   }
+  @media only screen and (max-width:400px) {
+    .sec_1navigation {
+        width: auto;
+    }
+    .sec_1ula {
+        margin: 0;
+        margin-right: 15px;
+        
+    }
+  }
   @media only screen and (max-width:375px) {
     .linearGradient {
         
@@ -97,6 +109,7 @@
 }
 
 .sec_1 {
+    
     padding: 42px 10px;
 }
 .sec_1header {
@@ -107,11 +120,7 @@
     justify-content: center;
   
 }
-.sec_1ula {
-    margin: 0;
-    margin-right: 19px;
-    
-}
+
   .footer {
       padding: 30px 10px 0 10px;
      text-align: center;
@@ -126,6 +135,13 @@
       font-size: 25px;
     
   }
+  }
+  @media only screen and (max-width:374px) {
+    .sec_1ula {
+        margin: 0;
+        margin-right: 5px;
+        
+    }
   }
   @media only screen and (max-width:320px) {
       .linearGradient {
@@ -146,11 +162,7 @@
     .headerUlNav li a {
         width: 300px;
     }
-    .sec_1ula {
-        margin: 0;
-        margin-right: 5px;
-        
-    }
+    
     .sec_3cards img {
         max-width: 100%;
     }
