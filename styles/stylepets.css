@@ -16,13 +16,18 @@
 
 
 .header {
-    padding: 2.344vw 3.125vw 0px 3.125vw;
+    padding: 2.344vw 3.125vw 30px 3.125vw;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
     background-color: #FFFFFF;
     letter-spacing: 0.1em;
+    width: 100%;
+    opacity: 0.7;
 }
 
 .logo {
@@ -75,6 +80,7 @@
     border-bottom: 3px solid #F1CDB3;
 }
 .sec_1 {
+    margin-top: 87px;
     padding: 6.25vw 3.125vw 7.8125vw 3.125vw;
     background-color: #F6F6F6;
 }
@@ -222,7 +228,7 @@
     margin-left: 20px;
 }
 .footerCol-1{
-    width: 278px;
+    width: auto;
 }
 .footerCol-2 {
     width: 302px;
