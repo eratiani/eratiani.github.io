@@ -74,6 +74,22 @@
     .footerCol_3imgWrapper img {
         max-width: 100%;
     }
+    /*               modal */
+    .modal {
+        width: 88.8vw;
+    }
+    .modalTxt {
+ 
+        padding-right: 10px;
+    }
+    .modalH3 {
+       
+        margin-top: 20px;
+    }
+    .modalUl {
+  
+        margin-bottom: 38px;
+    }
   }
   @media only screen and (max-width:744px) {
     .navigation {
@@ -92,6 +108,28 @@
         margin: 0;
         margin-right: 15px;
         
+    }
+    .modalImgWrapper {
+        display: none;
+    }
+    .modalTxt {
+        width: 100%;
+        text-align: justify;
+        padding: 10px;
+    }
+    .modalH3 {
+        margin-top: 10px;
+        margin-left: 39px;
+    }
+    .modalPar1 {
+        margin-left: 39px;
+    }
+    .modalPar2 {
+        font-size: 13px;
+    }
+    .modalUl {
+        margin-left: 12px;
+        margin-bottom: 0;
     }
   }
   @media only screen and (max-width:375px) {
