@@ -561,6 +561,8 @@ const pet = [
           /////////////modal
          
           inputs.addEventListener("click", ()=>{
+            
+            document.body.style.overflow = "hidden";
             modal.classList.toggle("hidden");
             overlay.classList.toggle("hidden")
             console.log(modalImgSrc);
@@ -572,9 +574,15 @@ const pet = [
             modalPetInoculations.textContent = e["inoculations"];
             modalPetDiseases.textContent = e["diseases"];
             modalPetParasites.textContent =  e["parasites"];
+            overlay.addEventListener("click", ()=>{
+              modal.classList.add("hidden");
+              overlay.classList.add("hidden");
+              document.body.style.overflow = "auto";
+            });
             modalCloseBtn.addEventListener("click", ()=>{
               modal.classList.add("hidden");
               overlay.classList.add("hidden");
+              document.body.style.overflow = "auto";
              })
            });
        })
