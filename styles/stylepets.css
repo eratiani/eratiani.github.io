@@ -395,6 +395,7 @@
     border-radius: 50%;
     cursor: pointer;
     transform: translate(50%, -50%);
+    transition: all 0.5s;
 }
 .modalH3 {
     font-size: 35px;
@@ -449,4 +450,7 @@
 }
 .hidden {
     display: none;
+}
+.closeBtn:hover{
+    background-color: #F1CDB3;
 }

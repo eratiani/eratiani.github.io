@@ -120,6 +120,8 @@
     .footerCol_3imgWrapper img {
         max-width: 100%;
     }
+    /*                           -------------------modal */
+    
   }
   @media only screen and (max-width:744px) {
     .navigation {
@@ -131,6 +133,31 @@
     .sec_1btn {
         width: auto;
     }
+  }
+  @media only screen and (max-width:400){
+    .modalImgWrapper {
+        display: none;
+    }
+    .modalTxt {
+        width: 100%;
+        text-align: justify;
+        padding: 10px;
+    }
+    .modalH3 {
+        margin-top: 10px;
+        margin-left: 39px;
+    }
+    .modalPar1 {
+        margin-left: 39px;
+    }
+    .modalPar2 {
+        font-size: 13px;
+    }
+    .modalUl {
+        margin-left: 12px;
+        margin-bottom: 0;
+    }
+      
   }
   @media only screen and (max-width:375px) {
     .linearGradient {
