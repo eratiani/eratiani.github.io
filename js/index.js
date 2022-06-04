@@ -690,25 +690,25 @@ const pet = [
      }
      
      addElements();
-     $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-            responsive:{
-                320:{
-                    items: 1
-                },
-                768 : {
-                    items: 2,
-                },
-                1000:{
+    //  $(document).ready(function(){
+    //     $(".owl-carousel").owlCarousel({
+    //         responsive:{
+    //             320:{
+    //                 items: 1
+    //             },
+    //             768 : {
+    //                 items: 2,
+    //             },
+    //             1000:{
                     
-                    items: 3,
-                }
-            },
-            loop: true,
-            nav: true,
-            navText:["<img src='./images/arrowleft.svg'>","<img src='./images/arrowright.svg'>"],
-        });
-    });
+    //                 items: 3,
+    //             }
+    //         },
+    //         loop: true,
+    //         nav: true,
+    //         navText:["<img src='./images/arrowleft.svg'>","<img src='./images/arrowright.svg'>"],
+    //     });
+    // });
     ////////////////////burger
     $('.burger').click(function(){
         $(this).toggleClass('open');
@@ -724,3 +724,86 @@ const pet = [
         
        
     });
+    //////////////////////////////carousel
+    let slides = document.querySelectorAll(".sec_3cards")
+    let leftBtn = document.querySelector(".leftBtn");
+    let rightBtn = document.querySelector(".rightBtn");
+    console.log(slides);
+    let counter = 0;
+    let petsPPage = 3;
+    let petsPPage2 = 2;
+    leftBtn.addEventListener("click", ()=>{
+      counter--;
+      if(counter<0) {
+        counter=slides.length-petsPPage
+      }
+
+
+      carousel()
+    });
+    rightBtn.addEventListener("click", ()=>{
+      counter++;
+      if(counter=== slides.length-petsPPage2) {
+        
+        counter=0
+      }
+   
+      carousel()
+    });
+    let width = document.body.clientWidth
+        if(width <376) {
+            
+          slides.forEach((element, index) =>{
+            element.style.left = `${index*100}%`
+          });
+            
+        } else if (width <=768) {
+          slides.forEach((element, index) =>{
+            element.style.left = `${index*50}%`
+          });
+          // petsPPage = 4
+          // petsPPage2 = 5
+          console.log(petsPPage);
+        } else if (width >769) {
+          petsPPage = 3
+          petsPPage2 = 2
+          slides.forEach((element, index) =>{
+            element.style.left = `${index*33}%`
+          });
+            
+        }
+    /////////////////resizer
+    window.addEventListener('resize', resizer)
+   
+    function resizer() {
+        let width = document.body.clientWidth
+        if(width <376) {
+            
+          slides.forEach((element, index) =>{
+            element.style.left = `${index*100}%`
+          });
+            
+        } else if (width <=768) {
+          slides.forEach((element, index) =>{
+            element.style.left = `${index*50}%`
+          });
+          // petsPPage = 4
+          // petsPPage2 = 5
+          console.log(petsPPage);
+        } else if (width >769) {
+          petsPPage = 3
+          petsPPage2 = 2
+          slides.forEach((element, index) =>{
+            element.style.left = `${index*33}%`
+          });
+            
+        }
+        
+    }
+    
+    function carousel() {
+      slides.forEach((el)=>{
+        el.style.transform = `translateX(-${counter*100}%)`
+      });
+    }
+    
