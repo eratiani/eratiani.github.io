@@ -1,7 +1,22 @@
+/* @media only screen and (max-width: 1400px) {
+    .sec_3cards {
+        width: 270px;
+        
+    }
+ } */
+@media only screen and (max-width: 1280px) {
+    .carouselMine {
+        height: 45vw;
+    }
+ }
+
 @media only screen and (max-width: 768px) {
     .linearGradient {
         padding: 4vw 4vw 0px 4vw;
         
+    }
+    .carouselMine {
+        height: 435px;
     }
     .header_logoWrapper {
         margin-right: 5.8vw;
@@ -60,6 +75,9 @@
     .sec_2 {
         flex-direction: column-reverse;
         align-items: center;
+    }
+    .sec_3cards {
+        width: 50%;
     }
     .sec_2txtWrapper {
         width: 55.9vw;
@@ -173,6 +191,9 @@
 
       margin-bottom: 42px;
   }
+  .sec_3cards {
+    width: 100%;
+}
   .sec_1_textWrapper {
    
       width: 100%;
@@ -388,17 +409,17 @@
         margin-bottom: 30px;
         
     }
-    .owl-nav {
+    .carouselBtns {
         top: auto;
         bottom: -50px ;
      
         
     }
-    .owl-prev {
+    .leftBtn {
         left: 43px;
         transform: translateX(-50%);
     }
-    .owl-next {
+    .rightBtn {
         right: 43px;
         transform: translateX(50%);
     }
@@ -432,7 +453,7 @@
        justify-content: flex-start;
     }
     .sec_4items {
-        width: 130px;
+        width: 121px;
     }
     .sec_5 {
         background-color: #F6F6F6;

@@ -194,16 +194,35 @@
     margin-bottom: 60px;
     text-align: center;
 }
-
-.sec_3cardsWrapper {
-    max-width: 77.344%;
+.carouselMine {
+    max-width: 1280px;
+    height: 435px;
+    /* width: 77.344%; */
+   
     margin: auto;
+    position: relative;
     display: flex !important;
     justify-content: space-between;
 }
+.sec_3cardsWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    overflow: hidden;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    /* left: 0; */
+}
 
 .sec_3cards {
-    width: 270px;
+    height: 435px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33%;
+  
     background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
@@ -243,12 +262,14 @@
 }
 
 
-.owl-nav {
+.carouselBtns {
     position: absolute;
+    width: 100%;
+    height: auto;
     top: 50%;
     left: 0;
-    width: 100%;
-    transform: translateY(-50%);
+   
+    /* transform: translateY(-50%); */
     display: flex !important;
     justify-content: space-between;
     align-items: center;
@@ -256,11 +277,11 @@
 
 }
 
-.owl-prev:hover {
+.leftBtn:hover {
     background-color: #FDDCC4 !important;
 }
 
-.owl-prev {
+.leftBtn {
     width: 52px !important;
     height: 52px !important;
     display: flex !important;
@@ -275,11 +296,11 @@
     transition: all 1.2s !important;
 }
 
-.owl-next:hover {
+.rightBtn:hover {
     background-color: #FDDCC4 !important;
 }
 
-.owl-next {
+.rightBtn {
     width: 52px !important;
     height: 52px !important;
     display: flex !important;
@@ -294,7 +315,7 @@
     transition: all 1.2s !important;
 }
 
-.owl-nav button img {
+.carouselBtns  img {
     width: 14px;
 
 
@@ -715,8 +736,6 @@
 .overlay {
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
     bottom: 0;
     background-color: gray;
     width: 100%;
