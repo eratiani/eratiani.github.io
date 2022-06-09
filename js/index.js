@@ -661,7 +661,7 @@ const pet = [
          cardsWrapper.append(fragment)
           /////////////modal
          
-          inputs.addEventListener("click", ()=>{
+          cards.addEventListener("click", ()=>{
             
             document.body.style.overflow = "hidden";
             modal.classList.toggle("hidden");
