@@ -710,16 +710,32 @@ const pet = [
     //     });
     // });
     ////////////////////burger
-    $('.burger').click(function(){
-        $(this).toggleClass('open');
-        $(".navBurger").toggleClass("closed")
+//     $('.burger').click(function(){
+//         $(this).toggleClass('open');
+//         $(".navBurger").toggleClass("closed")
+        
+//       });
+//     $(".navBurger").click(()=>{
+//         if ($('.navBurger').classList = "open" ) {
+    
+//             $(".burger").toggleClass('open');
+//             $(".navBurger").toggleClass("closed")
+//         }
+        
+       
+//     });
+   let burger = document.querySelector(".burger")
+    let navBurger = document.querySelector(".navBurger")
+    burger.addEventListener("click", function(){
+        burger.classList.toggle('open');
+        navBurger.classList.toggle("closed")
         
       });
-    $(".navBurger").click(()=>{
-        if ($('.navBurger').classList = "open" ) {
+    navBurger.addEventListener("click", function(){
+        if (navBurger.classList = "open" ) {
     
-            $(".burger").toggleClass('open');
-            $(".navBurger").toggleClass("closed")
+            burger.classList.toggle('open');
+            navBurger.classList.toggle("closed")
         }
         
        
