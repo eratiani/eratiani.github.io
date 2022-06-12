@@ -663,7 +663,7 @@ const pet = [
          
           cards.addEventListener("click", ()=>{
             
-            document.body.style.overflow = "hidden";
+            document.body.classList.toggle("hoverbg")
             modal.classList.toggle("hidden");
             overlay.classList.toggle("hidden")
             console.log(modalImgSrc);
@@ -675,15 +675,23 @@ const pet = [
             modalPetInoculations.textContent = e["inoculations"];
             modalPetDiseases.textContent = e["diseases"];
             modalPetParasites.textContent =  e["parasites"];
+            overlay.addEventListener("mouseenter", ()=>{
+              console.log("sdawwws");
+              modalCloseBtn.style.backgroundColor = "#F1CDB3";
+            })
+            overlay.addEventListener("mouseleave", ()=>{
+              console.log("sdawwws");
+              modalCloseBtn.style.backgroundColor = "transparent";
+            })
             overlay.addEventListener("click", ()=>{
               modal.classList.add("hidden");
               overlay.classList.add("hidden");
-              document.body.style.overflow = "auto";
+              document.body.classList.remove("hoverbg")
             });
             modalCloseBtn.addEventListener("click", ()=>{
               modal.classList.add("hidden");
               overlay.classList.add("hidden");
-              document.body.style.overflow = "auto";
+              document.body.classList.remove("hoverbg")
              })
            });
        })
@@ -724,22 +732,39 @@ const pet = [
         
        
 //     });
-   let burger = document.querySelector(".burger")
-    let navBurger = document.querySelector(".navBurger")
-    burger.addEventListener("click", function(){
-        burger.classList.toggle('open');
-        navBurger.classList.toggle("closed")
-        
-      });
-    navBurger.addEventListener("click", function(){
-        if (navBurger.classList = "open" ) {
+let burger = document.querySelector(".burger")
+let navBurger = document.querySelector(".navBurger")
+overlay.addEventListener("click", ()=>{
+  if (burger.classList = "open" ) { 
+
+    burger.classList.toggle('open');
+    navBurger.classList.toggle("closed")
+  }
+
+  overlay.classList.add("hidden");
+  document.body.classList.remove("hoverbg")
+});
+burger.addEventListener("click", function(){
+  document.body.classList.toggle("hoverbg")
+    burger.classList.toggle('open');
+    navBurger.classList.toggle("closed")
+    overlay.classList.toggle("hidden")
+   
     
-            burger.classList.toggle('open');
-            navBurger.classList.toggle("closed")
-        }
-        
-       
-    });
+  });
+  let li = document.querySelectorAll(".headerLi")
+  li.forEach((E)=>{
+    E.addEventListener("click", function(){
+      if (burger.classList = "open" ) {
+          document.body.classList.remove("hoverbg")
+          burger.classList.toggle('open');
+          navBurger.classList.toggle("closed")
+          overlay.classList.add("hidden")
+      }
+
+  });
+});
+
     //////////////////////////////carousel
     let slides = document.querySelectorAll(".sec_3cards")
     let leftBtn = document.querySelector(".leftBtn");
