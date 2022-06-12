@@ -248,6 +248,7 @@
 }
 /* burger */
 .burger {
+    
     width: 33px;
     position: absolute;
     right: 53px;
@@ -255,6 +256,7 @@
     cursor: pointer;
     padding: 10px;
     display: none;
+    z-index: 10111111;
   }
   
   .burger-brick {
@@ -305,6 +307,7 @@
  }
  
   .navBurger {
+    z-index: 10002;
       position: absolute;
       top: 0;
       right: 0;
@@ -358,11 +361,11 @@
     position: relative;
     background-color: #FAFAFA;
     position: fixed;
-    top: 10%;
+    top: 50%;
     /* bottom: 15%; */
     /* height: 480px; */
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: space-between;
     z-index: 1000;
@@ -448,11 +451,14 @@
     bottom: 0;
     background-color: gray;
     width: 100%;
-    z-index: 100;
+    z-index: 10;
 }
 .hidden {
     display: none;
 }
 .closeBtn:hover{
     background-color: #F1CDB3;
+}
+.hoverbg {
+    overflow: hidden;
 }

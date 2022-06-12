@@ -11,6 +11,12 @@
  }
 
 @media only screen and (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
     .linearGradient {
         padding: 4vw 4vw 0px 4vw;
         
@@ -138,16 +144,33 @@
     .footerCol_3imgWrapper img {
         max-width: 100%;
     }
+    .modalImgWrapper {
+        display: none;
+    }
+    .modalTxt {
+        width: 100%;
+        text-align: justify;
+        padding: 10px;
+    }
+    .modalH3 {
+        margin-top: 10px;
+        margin-left: 39px;
+    }
+    .modalPar1 {
+        margin-left: 39px;
+    }
+    .modalPar2 {
+        font-size: 13px;
+    }
+    .modalUl {
+        margin-left: 12px;
+        margin-bottom: 0;
+    }
     /*                           -------------------modal */
     
   }
   @media only screen and (max-width:744px) {
-    .navigation {
-        display: none;
-    }
-    .burger {
-        display: block;
-    }
+    
     .sec_1btn {
         width: auto;
     }
