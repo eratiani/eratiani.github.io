@@ -648,10 +648,10 @@ const pet = [
           /////////////modal
          
           cards.addEventListener("click", ()=>{
-            
+            let persov = document.querySelector(".overlayPets")
             document.body.classList.toggle("hoverbg")
             modal.classList.toggle("hidden");
-            overlay.classList.toggle("hidden")
+            persov.classList.toggle("hidden")
             console.log(modalImgSrc);
             modalImgSrc.src = e["img"];
             modalPetName.textContent = e["name"];
@@ -663,20 +663,20 @@ const pet = [
             modalPetParasites.textContent =  e["parasites"];
             overlay.addEventListener("click", ()=>{
               modal.classList.add("hidden");
-              overlay.classList.add("hidden");
+              persov.classList.add("hidden");
               document.body.classList.remove("hoverbg")
             });
-            overlay.addEventListener("mouseenter", ()=>{
+            persov.addEventListener("mouseenter", ()=>{
               console.log("sdawwws");
               modalCloseBtn.style.backgroundColor = "#F1CDB3";
             })
-            overlay.addEventListener("mouseleave", ()=>{
+            persov.addEventListener("mouseleave", ()=>{
               console.log("sdawwws");
               modalCloseBtn.style.backgroundColor = "transparent";
             })
             modalCloseBtn.addEventListener("click", ()=>{
               modal.classList.add("hidden");
-              overlay.classList.add("hidden");
+              persov.classList.add("hidden");
               document.body.classList.remove("hoverbg")
              })
            });
@@ -825,8 +825,10 @@ var obj = document.querySelectorAll(".sec_3cards")
 let burger = document.querySelector(".burger")
     let navBurger = document.querySelector(".navBurger")
     overlay.addEventListener("click", ()=>{
+      if (burger.classList = "open" ) {
       burger.classList.toggle('open');
       navBurger.classList.toggle("closed")
+      }
       overlay.classList.add("hidden");
       document.body.classList.remove("hoverbg")
     });
