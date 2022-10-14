@@ -56,7 +56,6 @@ let modalPetAge = document.querySelector(".Age");
 let modalPetInoculations = document.querySelector(".Inoculations");
 let modalPetDiseases = document.querySelector(".Diseases");
 let modalPetParasites = document.querySelector(".Parasites");
-let modalCloseBtn = document.querySelector(".closeBtn");
 let overlay = document.querySelector(".overlay");
 
 //////////////////////////////////////////
@@ -641,63 +640,83 @@ const pet = [
      ////////////////////////////////// pets constructor
      let cardsWrapper = document.querySelector(".sec_3cardsWrapper");
    
-     let fragment = new DocumentFragment();
-     function addElements() {
-       cardsWrapper.innerHTML = "";
-       pet.forEach((e)=>{
-         const cards = new Div("sec_3cards", "").createElem()
-         
-         const img1 = new Img("pets", "").createElem()
-         img1.src=e["img"];
-         cards.append(img1);
-         const header3 = new H3("sec_3cardsHeader", e["name"]).createElem();
-         cards.append(header3);
-         let inputs = new Input("sec_3cardsbtn", "learn more").createElem()
-         inputs.type= "button";
-         cards.append(inputs);
-        
-         
-         fragment.append(cards);
-         cardsWrapper.append(fragment)
+    //  let fragment = new DocumentFragment();
+function addElements() {
+  pet.forEach((e,i)=>{
+    cardsWrapper.innerHTML += `
+       <div data-pets="${e.name}" class="sec_3cards card${i+1}">
+       <img data-pets="${e.name}" class="katrine" src="${e.img}" alt="katrine">
+       <h3 data-pets="${e.name}" class="sec_3cardsHeader">${e.name}</h3>
+       <input data-pets="${e.name}" class="sec_3cardsbtn" type="button" value="Learn more">
+   </div>
+   `;
+       
           /////////////modal
-         
-          cards.addEventListener("click", ()=>{
-            let persov = document.querySelector(".overlayPets")
-            document.body.classList.toggle("hoverbg")
-            modal.classList.toggle("hidden");
-            persov.classList.toggle("hidden")
-            console.log(modalImgSrc);
-            modalImgSrc.src = e["img"];
-            modalPetName.textContent = e["name"];
-            modalPetType.textContent = e["type"] + "-" + e["breed"];
-            modalPetDescr.textContent = e["description"];
-            modalPetAge.textContent = e["age"];
-            modalPetInoculations.textContent = e["inoculations"];
-            modalPetDiseases.textContent = e["diseases"];
-            modalPetParasites.textContent =  e["parasites"];
-            persov.addEventListener("mouseenter", ()=>{
-              console.log("sdawwws");
-              modalCloseBtn.style.backgroundColor = "#F1CDB3";
-            })
-            persov.addEventListener("mouseleave", ()=>{
-              console.log("sdawwws");
-              modalCloseBtn.style.backgroundColor = "transparent";
-            })
-            persov.addEventListener("click", ()=>{
-              modal.classList.add("hidden");
-              persov.classList.add("hidden");
-              document.body.classList.remove("hoverbg")
-            });
-            modalCloseBtn.addEventListener("click", ()=>{
-              modal.classList.add("hidden");
-              persov.classList.add("hidden");
-              document.body.classList.remove("hoverbg")
-             })
+    cardsWrapper.addEventListener("click", () => {
+      
+           
            });
        })
      }
      
-     addElements();
+addElements();
+function petsFilter(petName) {
+ return pet.filter((e) => {
+  return e.name === petName
+  })
+}
+cardsWrapper.addEventListener("click", (e) => {
+  let currPet = petsFilter(e.target.dataset.pets)[0];
+  
+    if (e.target.dataset.pets === currPet.name) {
+    
+    const modal = document.querySelector(".modal");
+    modal.innerHTML = `
+    <a class="closeBtn">X</a>
+    <div class="modalImgWrapper">
+        <img class="modalImg" src="${currPet.img}" alt="dasd">
+    </div>
+    <div class="modalTxt">
+        <h3 class="modalH3">${currPet.name}</h3>
+        <p class="modalPar1">${currPet.breed}</p>
+        <p class="modalPar2">${currPet.description}</p>
+       <ul class="modalUl">
+           <li>Age:<span class="Age" > ${currPet.age} </span></li>
+           <li>Inoculations:<span class="Inoculations"> ${currPet.inoculations}</span></li>
+           <li>Diseases:<span class="Diseases"> ${currPet.diseases}</span></li>
+           <li>Parasites:<span class="Parasites"> ${currPet.parasites}</span></li>
+       </ul>
+       
+    </div>`
+  const modalCloseBtn = document.querySelector(".closeBtn")
+      
+    let persov = document.querySelector(".overlayPets")
+    document.body.classList.toggle("hoverbg")
+    modal.classList.toggle("hidden");
+    persov.classList.toggle("hidden")
+     
+    persov.addEventListener("mouseenter", ()=>{
+      console.log("sdawwws");
+      modalCloseBtn.style.backgroundColor = "#F1CDB3";
+    })
+    persov.addEventListener("mouseleave", ()=>{
+      console.log("sdawwws");
+      modalCloseBtn.style.backgroundColor = "transparent";
+    })
+    persov.addEventListener("click", ()=>{
+      modal.classList.add("hidden");
+      persov.classList.add("hidden");
+      document.body.classList.remove("hoverbg")
+    });
+    modalCloseBtn.addEventListener("click", ()=>{
+      modal.classList.add("hidden");
+      persov.classList.add("hidden");
+      document.body.classList.remove("hoverbg")
+     })
+  }
+    
+ 
+});
     //  $(document).ready(function(){
     //     $(".owl-carousel").owlCarousel({
     //         responsive:{
@@ -769,7 +788,6 @@ burger.addEventListener("click", function(){
     let slides = document.querySelectorAll(".sec_3cards")
     let leftBtn = document.querySelector(".leftBtn");
     let rightBtn = document.querySelector(".rightBtn");
-    console.log(slides);
     let counter = 0;
     let petsPPage = 3;
     let petsPPage2 = 2;

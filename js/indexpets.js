@@ -92,6 +92,17 @@ const pet = [
       "parasites": ["none"]
     },
     {
+      "name": "Timmy",
+      "img": "./images/pets-timmy.png",
+      "type": "Cat",
+      "breed": "British Shorthair",
+      "description": "Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.",
+      "age": "2 years 3 months",
+      "inoculations": ["calicivirus", "viral rhinotracheitis"],
+      "diseases": ["kidney stones"],
+      "parasites": ["none"]
+    },
+    {
       "name": "Katrine",
       "img": "./images/pets-katrine.png",
       "type": "Cat",
@@ -135,6 +146,177 @@ const pet = [
       "diseases": ["deafness", "blindness"],
       "parasites": ["lice", "fleas"]
     },
+    {
+      "name": "Jennifer",
+      "img": "./images/pets-jennifer.png",
+      "type": "Dog",
+      "breed": "Labrador",
+      "description": "Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.",
+      "age": "2 months",
+      "inoculations": ["none"],
+      "diseases": ["none"],
+      "parasites": ["none"]
+    },
+    {
+      "name": "Katrine",
+      "img": "./images/pets-katrine.png",
+      "type": "Cat",
+      "breed": "British Shorthair",
+      "description": "Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.",
+      "age": "6 months",
+      "inoculations": ["panleukopenia"],
+      "diseases": ["none"],
+      "parasites": ["none"]
+    },
+    {
+      "name": "Sophia",
+      "img": "./images/pets-sophia.png",
+      "type": "Dog",
+      "breed": "Shih tzu",
+      "description": "Sophia here and I'm looking for my forever home to live out the best years of my life. I am full of energy. Everyday I'm learning new things, like how to walk on a leash, go potty outside, bark and play with toys and I still need some practice.",
+      "age": "1 month",
+      "inoculations": ["parvovirus"],
+      "diseases": ["none"],
+      "parasites": ["none"]
+    },
+    {
+      "name": "Woody",
+      "img": "./images/pets-woody.png",
+      "type": "Dog",
+      "breed": "Golden Retriever",
+      "description": "Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.",
+      "age": "3 years 6 months",
+      "inoculations": ["adenovirus", "distemper"],
+      "diseases": ["right back leg mobility reduced"],
+      "parasites": ["none"]
+  },
+  
+    
+    
+    {
+      "name": "Timmy",
+      "img": "./images/pets-timmy.png",
+      "type": "Cat",
+      "breed": "British Shorthair",
+      "description": "Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.",
+      "age": "2 years 3 months",
+      "inoculations": ["calicivirus", "viral rhinotracheitis"],
+      "diseases": ["kidney stones"],
+      "parasites": ["none"]
+  },
+  {
+    "name": "Charly",
+    "img": "./images/charlie.svg",
+    "type": "Dog",
+    "breed": "Jack Russell Terrier",
+    "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
+    "age": "8 years",
+    "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
+    "diseases": ["deafness", "blindness"],
+    "parasites": ["lice", "fleas"]
+  },
+    {
+      "name": "Freddie",
+      "img": "./images/freddie.svg",
+      "type": "Cat",
+      "breed": "British Shorthair",
+      "description": "Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.",
+      "age": "2 months",
+      "inoculations": ["rabies"],
+      "diseases": ["none"],
+      "parasites": ["none"]
+  },
+  {
+    "name": "Katrine",
+    "img": "./images/pets-katrine.png",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "description": "Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.",
+    "age": "6 months",
+    "inoculations": ["panleukopenia"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+    {
+      "name": "Scarlett",
+      "img": "./images/scarlett.svg",
+      "type": "Dog",
+      "breed": "Jack Russell Terrier",
+      "description": "Scarlett is a happy, playful girl who will make you laugh and smile. She forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion for a single individual too since she likes to hang out and be with her human.",
+      "age": "3 months",
+      "inoculations": ["parainfluenza"],
+      "diseases": ["none"],
+      "parasites": ["none"]
+  },
+    
+    
+    {
+      "name": "Sophia",
+      "img": "./images/pets-sophia.png",
+      "type": "Dog",
+      "breed": "Shih tzu",
+      "description": "Sophia here and I'm looking for my forever home to live out the best years of my life. I am full of energy. Everyday I'm learning new things, like how to walk on a leash, go potty outside, bark and play with toys and I still need some practice.",
+      "age": "1 month",
+      "inoculations": ["parvovirus"],
+      "diseases": ["none"],
+      "parasites": ["none"]
+    },
+   
+    {
+      "name": "Scarlett",
+      "img": "./images/scarlett.svg",
+      "type": "Dog",
+      "breed": "Jack Russell Terrier",
+      "description": "Scarlett is a happy, playful girl who will make you laugh and smile. She forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion for a single individual too since she likes to hang out and be with her human.",
+      "age": "3 months",
+      "inoculations": ["parainfluenza"],
+      "diseases": ["none"],
+      "parasites": ["none"]
+    },
+    {
+      "name": "Freddie",
+      "img": "./images/freddie.svg",
+      "type": "Cat",
+      "breed": "British Shorthair",
+      "description": "Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.",
+      "age": "2 months",
+      "inoculations": ["rabies"],
+      "diseases": ["none"],
+      "parasites": ["none"]
+    },
+    {
+      "name": "Charly",
+      "img": "./images/charlie.svg",
+      "type": "Dog",
+      "breed": "Jack Russell Terrier",
+      "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
+      "age": "8 years",
+      "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
+      "diseases": ["deafness", "blindness"],
+      "parasites": ["lice", "fleas"]
+  },
+  {
+    "name": "Jennifer",
+    "img": "./images/pets-jennifer.png",
+    "type": "Dog",
+    "breed": "Labrador",
+    "description": "Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.",
+    "age": "2 months",
+    "inoculations": ["none"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+},
+{
+  "name": "Woody",
+  "img": "./images/pets-woody.png",
+  "type": "Dog",
+  "breed": "Golden Retriever",
+  "description": "Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.",
+  "age": "3 years 6 months",
+  "inoculations": ["adenovirus", "distemper"],
+  "diseases": ["right back leg mobility reduced"],
+  "parasites": ["none"]
+},
     {
       "name": "Jennifer",
       "img": "./images/pets-jennifer.png",
@@ -299,19 +481,41 @@ const pet = [
       "inoculations": ["rabies"],
       "diseases": ["none"],
       "parasites": ["none"]
-    },
-    {
-      "name": "Charly",
-      "img": "./images/charlie.svg",
-      "type": "Dog",
-      "breed": "Jack Russell Terrier",
-      "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
-      "age": "8 years",
-      "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
-      "diseases": ["deafness", "blindness"],
-      "parasites": ["lice", "fleas"]
-    },
-    {
+  },
+  {
+    "name": "Charly",
+    "img": "./images/charlie.svg",
+    "type": "Dog",
+    "breed": "Jack Russell Terrier",
+    "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
+    "age": "8 years",
+    "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
+    "diseases": ["deafness", "blindness"],
+    "parasites": ["lice", "fleas"]
+  },
+  {
+    "name": "Freddie",
+    "img": "./images/freddie.svg",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "description": "Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.",
+    "age": "2 months",
+    "inoculations": ["rabies"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Charly",
+    "img": "./images/charlie.svg",
+    "type": "Dog",
+    "breed": "Jack Russell Terrier",
+    "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
+    "age": "8 years",
+    "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
+    "diseases": ["deafness", "blindness"],
+    "parasites": ["lice", "fleas"]
+  },
+   {
       "name": "Jennifer",
       "img": "./images/pets-jennifer.png",
       "type": "Dog",
@@ -343,7 +547,29 @@ const pet = [
       "inoculations": ["adenovirus", "distemper"],
       "diseases": ["right back leg mobility reduced"],
       "parasites": ["none"]
-    },
+  },
+  {
+    "name": "Katrine",
+    "img": "./images/pets-katrine.png",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "description": "Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.",
+    "age": "6 months",
+    "inoculations": ["panleukopenia"],
+    "diseases": ["none"],
+    "parasites": ["none"]
+  },
+  {
+    "name": "Timmy",
+    "img": "./images/pets-timmy.png",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "description": "Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.",
+    "age": "2 years 3 months",
+    "inoculations": ["calicivirus", "viral rhinotracheitis"],
+    "diseases": ["kidney stones"],
+    "parasites": ["none"]
+  },
     {
       "name": "Scarlett",
       "img": "./images/scarlett.svg",
@@ -354,226 +580,9 @@ const pet = [
       "inoculations": ["parainfluenza"],
       "diseases": ["none"],
       "parasites": ["none"]
-    },
-    {
-      "name": "Katrine",
-      "img": "./images/pets-katrine.png",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.",
-      "age": "6 months",
-      "inoculations": ["panleukopenia"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Timmy",
-      "img": "./images/pets-timmy.png",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.",
-      "age": "2 years 3 months",
-      "inoculations": ["calicivirus", "viral rhinotracheitis"],
-      "diseases": ["kidney stones"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Freddie",
-      "img": "./images/freddie.svg",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.",
-      "age": "2 months",
-      "inoculations": ["rabies"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Charly",
-      "img": "./images/charlie.svg",
-      "type": "Dog",
-      "breed": "Jack Russell Terrier",
-      "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
-      "age": "8 years",
-      "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
-      "diseases": ["deafness", "blindness"],
-      "parasites": ["lice", "fleas"]
-    },
-    {
-      "name": "Jennifer",
-      "img": "./images/pets-jennifer.png",
-      "type": "Dog",
-      "breed": "Labrador",
-      "description": "Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.",
-      "age": "2 months",
-      "inoculations": ["none"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Sophia",
-      "img": "./images/pets-sophia.png",
-      "type": "Dog",
-      "breed": "Shih tzu",
-      "description": "Sophia here and I'm looking for my forever home to live out the best years of my life. I am full of energy. Everyday I'm learning new things, like how to walk on a leash, go potty outside, bark and play with toys and I still need some practice.",
-      "age": "1 month",
-      "inoculations": ["parvovirus"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Woody",
-      "img": "./images/pets-woody.png",
-      "type": "Dog",
-      "breed": "Golden Retriever",
-      "description": "Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.",
-      "age": "3 years 6 months",
-      "inoculations": ["adenovirus", "distemper"],
-      "diseases": ["right back leg mobility reduced"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Scarlett",
-      "img": "./images/scarlett.svg",
-      "type": "Dog",
-      "breed": "Jack Russell Terrier",
-      "description": "Scarlett is a happy, playful girl who will make you laugh and smile. She forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion for a single individual too since she likes to hang out and be with her human.",
-      "age": "3 months",
-      "inoculations": ["parainfluenza"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Katrine",
-      "img": "./images/pets-katrine.png",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.",
-      "age": "6 months",
-      "inoculations": ["panleukopenia"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Timmy",
-      "img": "./images/pets-timmy.png",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.",
-      "age": "2 years 3 months",
-      "inoculations": ["calicivirus", "viral rhinotracheitis"],
-      "diseases": ["kidney stones"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Freddie",
-      "img": "./images/freddie.svg",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.",
-      "age": "2 months",
-      "inoculations": ["rabies"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Charly",
-      "img": "./images/charlie.svg",
-      "type": "Dog",
-      "breed": "Jack Russell Terrier",
-      "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
-      "age": "8 years",
-      "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
-      "diseases": ["deafness", "blindness"],
-      "parasites": ["lice", "fleas"]
-    },{
-      "name": "Jennifer",
-      "img": "./images/pets-jennifer.png",
-      "type": "Dog",
-      "breed": "Labrador",
-      "description": "Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.",
-      "age": "2 months",
-      "inoculations": ["none"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Sophia",
-      "img": "./images/pets-sophia.png",
-      "type": "Dog",
-      "breed": "Shih tzu",
-      "description": "Sophia here and I'm looking for my forever home to live out the best years of my life. I am full of energy. Everyday I'm learning new things, like how to walk on a leash, go potty outside, bark and play with toys and I still need some practice.",
-      "age": "1 month",
-      "inoculations": ["parvovirus"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Woody",
-      "img": "./images/pets-woody.png",
-      "type": "Dog",
-      "breed": "Golden Retriever",
-      "description": "Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.",
-      "age": "3 years 6 months",
-      "inoculations": ["adenovirus", "distemper"],
-      "diseases": ["right back leg mobility reduced"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Scarlett",
-      "img": "./images/scarlett.svg",
-      "type": "Dog",
-      "breed": "Jack Russell Terrier",
-      "description": "Scarlett is a happy, playful girl who will make you laugh and smile. She forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion for a single individual too since she likes to hang out and be with her human.",
-      "age": "3 months",
-      "inoculations": ["parainfluenza"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Katrine",
-      "img": "./images/pets-katrine.png",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.",
-      "age": "6 months",
-      "inoculations": ["panleukopenia"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Timmy",
-      "img": "./images/pets-timmy.png",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.",
-      "age": "2 years 3 months",
-      "inoculations": ["calicivirus", "viral rhinotracheitis"],
-      "diseases": ["kidney stones"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Freddie",
-      "img": "./images/freddie.svg",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.",
-      "age": "2 months",
-      "inoculations": ["rabies"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Charly",
-      "img": "./images/charlie.svg",
-      "type": "Dog",
-      "breed": "Jack Russell Terrier",
-      "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
-      "age": "8 years",
-      "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
-      "diseases": ["deafness", "blindness"],
-      "parasites": ["lice", "fleas"]
     }
+    
+   
   ]
   
   class Div {
@@ -627,63 +636,83 @@ const pet = [
      ////////////////////////////////// pets constructor
      let cardsWrapper = document.querySelector(".sec_1petsWrapperRow");
    
-     let fragment = new DocumentFragment();
-     function addElements() {
-       cardsWrapper.innerHTML = "";
-       pet.forEach((e)=>{
-         const cards = new Div("sec_3cards", "").createElem()
-         
-         const img1 = new Img("pets", "").createElem()
-         img1.src=e["img"];
-         cards.append(img1);
-         const header3 = new H3("sec_3cardsHeader", e["name"]).createElem();
-         cards.append(header3);
-         let inputs = new Input("sec_3cardsbtn", "learn more").createElem()
-         inputs.type= "button";
-         cards.append(inputs);
-        
-         
-         fragment.append(cards);
-         cardsWrapper.append(fragment)
+    //  let fragment = new DocumentFragment();
+function addElements() {
+  pet.forEach((e,i)=>{
+    cardsWrapper.innerHTML += `
+       <div data-pets="${e.name}" class="sec_3cards card${i+1}">
+       <img data-pets="${e.name}" class="katrine" src="${e.img}" alt="katrine">
+       <h3 data-pets="${e.name}" class="sec_3cardsHeader">${e.name}</h3>
+       <input data-pets="${e.name}" class="sec_3cardsbtn" type="button" value="Learn more">
+   </div>
+   `;
+       
           /////////////modal
-         
-          cards.addEventListener("click", ()=>{
-            let persov = document.querySelector(".overlayPets")
-            document.body.classList.toggle("hoverbg")
-            modal.classList.toggle("hidden");
-            persov.classList.toggle("hidden")
-            console.log(modalImgSrc);
-            modalImgSrc.src = e["img"];
-            modalPetName.textContent = e["name"];
-            modalPetType.textContent = e["type"] + "-" + e["breed"];
-            modalPetDescr.textContent = e["description"];
-            modalPetAge.textContent = e["age"];
-            modalPetInoculations.textContent = e["inoculations"];
-            modalPetDiseases.textContent = e["diseases"];
-            modalPetParasites.textContent =  e["parasites"];
-            overlay.addEventListener("click", ()=>{
-              modal.classList.add("hidden");
-              persov.classList.add("hidden");
-              document.body.classList.remove("hoverbg")
-            });
-            persov.addEventListener("mouseenter", ()=>{
-              console.log("sdawwws");
-              modalCloseBtn.style.backgroundColor = "#F1CDB3";
-            })
-            persov.addEventListener("mouseleave", ()=>{
-              console.log("sdawwws");
-              modalCloseBtn.style.backgroundColor = "transparent";
-            })
-            modalCloseBtn.addEventListener("click", ()=>{
-              modal.classList.add("hidden");
-              persov.classList.add("hidden");
-              document.body.classList.remove("hoverbg")
-             })
+    cardsWrapper.addEventListener("click", () => {
+      
+           
            });
        })
      }
      
-     addElements();
+addElements();
+function petsFilter(petName) {
+ return pet.filter((e) => {
+  return e.name === petName
+  })
+}
+cardsWrapper.addEventListener("click", (e) => {
+  let currPet = petsFilter(e.target.dataset.pets)[0];
+  
+    if (e.target.dataset.pets === currPet.name) {
+    
+    const modal = document.querySelector(".modal");
+    modal.innerHTML = `
+    <a class="closeBtn">X</a>
+    <div class="modalImgWrapper">
+        <img class="modalImg" src="${currPet.img}" alt="dasd">
+    </div>
+    <div class="modalTxt">
+        <h3 class="modalH3">${currPet.name}</h3>
+        <p class="modalPar1">${currPet.breed}</p>
+        <p class="modalPar2">${currPet.description}</p>
+       <ul class="modalUl">
+           <li>Age:<span class="Age" > ${currPet.age} </span></li>
+           <li>Inoculations:<span class="Inoculations"> ${currPet.inoculations}</span></li>
+           <li>Diseases:<span class="Diseases"> ${currPet.diseases}</span></li>
+           <li>Parasites:<span class="Parasites"> ${currPet.parasites}</span></li>
+       </ul>
+       
+    </div>`
+  const modalCloseBtn = document.querySelector(".closeBtn")
+      
+    let persov = document.querySelector(".overlayPets")
+    document.body.classList.toggle("hoverbg")
+    modal.classList.toggle("hidden");
+    persov.classList.toggle("hidden")
+     
+    persov.addEventListener("mouseenter", ()=>{
+      console.log("sdawwws");
+      modalCloseBtn.style.backgroundColor = "#F1CDB3";
+    })
+    persov.addEventListener("mouseleave", ()=>{
+      console.log("sdawwws");
+      modalCloseBtn.style.backgroundColor = "transparent";
+    })
+    persov.addEventListener("click", ()=>{
+      modal.classList.add("hidden");
+      persov.classList.add("hidden");
+      document.body.classList.remove("hoverbg")
+    });
+    modalCloseBtn.addEventListener("click", ()=>{
+      modal.classList.add("hidden");
+      persov.classList.add("hidden");
+      document.body.classList.remove("hoverbg")
+     })
+  }
+    
+ 
+});
 var obj = document.querySelectorAll(".sec_3cards")
 
     var current_page = 1;
